@@ -1,14 +1,32 @@
+# Common IntelliJ Platform excludes
+
+# User specific
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+
+# Sensitive or high-churn files
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/gameJam-Chikarai/[Ll]ibrary/
+/gameJam-Chikarai/[Tt]emp/
+/gameJam-Chikarai/[Oo]bj/
+/gameJam-Chikarai/[Bb]uild/
+/gameJam-Chikarai/[Bb]uilds/
+/gameJam-Chikarai/[Ll]ogs/
+/gameJam-Chikarai/[Mm]emoryCaptures/
+/gameJam-Chikarai/.idea
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -58,3 +76,4 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+gameJam-Chikarai/Temp/UnityLockfile
