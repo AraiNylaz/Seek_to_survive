@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PersistentScene.unity
+    guid: eff0377a67820734ea9b7b4e819f36ca
+  - enabled: 1
+    path: Assets/Scenes/map.unity
+    guid: 26801c70264422a4786142b51006adcc
+  - enabled: 1
+    path: Assets/Scenes/navMeshScene.unity
+    guid: 969ffb86673a2034c8778038ec89a6de
+  m_configObjects: {}
